@@ -1,0 +1,114 @@
+<html>
+<head>
+<title>details</title> 
+<style>
+			body 
+				{
+				background-image:url('image/part1.jpg');
+				background-attachment:fixed;
+				background-repeat:no-repeat;
+				background-position:center;
+				background-origin:content-box;
+				}
+			p
+			{
+				font-family:"Times New Roman";
+				font-size:30px;
+				color:black;
+				position:center;
+				background-color:white;
+				text-align:center;
+				width:500px;
+				padding:20px;
+				border:10px solid orange;
+				margin:10px
+			}
+		</style>       
+ </head>
+    <body>
+		<form action="detail.html" method="POST">
+			<p>CORONA INSPECTOR 2020</p>
+			<h1>Please Give Correct Answers.</h1>
+			<p>
+			<table>
+				<tr>
+					<td colspan="1" align="left"><span>Name</span></td>
+					<td> <input name="username" type="text" class="textbox" required></td>
+				</tr>  
+				<tr>
+					<td colspan="1" align="left"><span>Sex</span></td>
+					<td>
+					<span>Male</span>
+					<span><input name="gen" value="Male" type="radio" class="checkbox" required checked></span>
+					<span>Female</span>
+					<span><input name="gen" value="Female" type="radio" class="checkbox"></span>
+					</td>
+				</tr>
+				<tr>	
+					<td><span>Age</span></td>
+					<td><span><input name="age" value="" type="number" class="textbox" required></span></td>
+				</tr>
+				<tr>
+					<td colspan="1" align="center"><span>Body Temperature</span></td>
+					<td> <input name="temperature" value="" type="celsius" placeholder="In Fahrenheit" class="textbox" required ></td>
+				</tr> 
+			</table>
+			</p>
+			<h1>Please tick the symptom in Yes or No</h1>
+			<p>
+			<table>
+				<tr>
+					<td colspan="1" align="left"><span>Do You Have Cough:--</span></td>
+					<td>
+					<span>Yes</span>
+					<span><input name="cough" value="Yes" type="radio" class="checkbox" required></span>
+					<span>No</span>
+					<span><input name="cough" value="No" type="radio" class="checkbox" required checked></span>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="1" align="left"><span>Do You Have Brething Problem:--</span></td>
+					<td>
+					<span>Yes</span>
+					<span><input name="breathing" value="Yes" type="radio" class="checkbox" required></span>
+					<span>No</span>
+					<span><input name="breathing" value="No" type="radio" class="checkbox" required checked></span>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="1" align="left"><span>Do You Have Pain In Chest:--</span></td>
+					<td>
+					<span>Yes</span>
+					<span><input name="chestpain" value="Yes" type="radio" class="checkbox" required></span>
+					<span>No</span>
+					<span><input name="chestpain" value="No" type="radio" class="checkbox" required checked></span>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="1" align="left"><span>Have You Travel To Infected Place with 25-40 days:--</span></td>
+					<td>
+					<span>Yes</span>
+					<span><input name="travel" value="Yes" type="radio" class="checkbox" required></span>
+					<span>No</span>
+					<span><input name="travel" value="No" type="radio" class="checkbox" required checked></span>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="1" align="left"><span>Do You Losing Sence Of Smell:--</span></td>
+					<td>
+					<span>Yes</span>
+					<span><input name="smell" value="Yes" type="radio" class="checkbox" required></span>
+					<span>No</span>
+					<span><input name="smell" value="No" type="radio" class="checkbox" required checked></span>
+					</td>
+				</tr>
+				<tr>	
+					<td colspan='2' style="text-align:center;" ><span><input name="submit" type="submit" class="button"></td>
+				</tr>
+			</table>
+			</p>
+		</form>
+	<br>
+	This is Corona checking Website.
+</body>
+</html>
